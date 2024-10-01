@@ -3986,8 +3986,12 @@ textarea.form-control-lg {
 .navbar > .container-xl,
 .navbar > .container-xxl {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /* flex-direction: row; */
+
+  /* flex-direction: column; */
+  /* align-items: center;
+  flex-direction: row;
+  justify-content: space-between; */
 }
 .navbar-brand {
   padding-top: var(--bs-navbar-brand-padding-y);

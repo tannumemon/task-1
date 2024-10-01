@@ -102,6 +102,8 @@ h2.heading {
     }
     .main nav.navbar.navbar-expand-lg {
         padding: 20px 0px;
+        /* display: flex;
+        flex-direction: row; */
         /* background-color: red; */
     }
     .logo {
@@ -117,12 +119,24 @@ h2.heading {
         border-left: none;
     }
 
-    .container{
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.navbar-toggler{
+  position: absolute;
+  background-color: aqua;
+    right: 0;
+}
+
+
+
+    /* .container{
         display: flex;
         flex-direction: column;
-      justify-content: start
+      
                 ;
-    }
+    } */
 
     
     /* .navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl{
