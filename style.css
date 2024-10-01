@@ -97,6 +97,13 @@ h2.heading {
 }
 
 @media (max-width: 768px) {
+    body{
+        
+    }
+    .main nav.navbar.navbar-expand-lg {
+        padding: 20px 0px;
+        /* background-color: red; */
+    }
     .logo {
         width: 70%; 
     }
@@ -108,4 +115,20 @@ h2.heading {
     }
     .boder{
         border-left: none;
-    }}
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+      justify-content: start
+                ;
+    }
+
+    
+    /* .navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl{
+        display: flex;
+    } */
+    
+        /* display: flex; */
+        /* align-items: center; */
+}
